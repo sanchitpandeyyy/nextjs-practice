@@ -5,7 +5,7 @@ const reviewId = ({
     }:{
     params:{
     productId: string;
-    ReviewId:string;
+    reviewId:string;
 }}) => {
   return (
     <div> Review {params.productId} for product {params.reviewId}</div>
